@@ -1,0 +1,50 @@
+/*footer*/
+
+$fondo:rgb(236, 191, 177);
+$color:white;
+
+footer{
+    margin-bottom: auto;
+    bottom: 0;
+    background-color: $fondo;
+}
+footer a{
+    background-color: $fondo;
+    font-family: 'Kalam', cursive;
+    color:rgb(252, 250, 249);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+footer a:hover{
+    color:#eeeae6;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+    color:#eeeae6;
+  }
+  
+  .fa-facebook {
+    color: $color;
+  }
+  
+  .fa-twitter {
+    color: $color;
+  }
+
+  .fa-instagram {
+    color: $color;
+  }

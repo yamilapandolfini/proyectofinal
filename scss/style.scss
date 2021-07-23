@@ -1,0 +1,58 @@
+@import "header";
+@import "footer";
+@import "productos";
+@import "mensaje";
+@import "blog";
+@import "media";
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Kalam', cursive;
+    color:rgb(216, 128, 77);
+}
+
+
+main{
+    max-width: 1024px;
+    background: white;
+    padding: 40px;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 8px;
+}
+
+.imagenLogo{
+    width: 50px;
+}
+
+
+.mi-btn{
+    background-color:rgb(245, 208, 197);
+    font-family: 'Kalam', cursive;
+    color:rgb(248, 247, 246);
+    justify-content: center;
+}
+
+.mi-btn:hover{
+    color:#81807e;
+    
+}
+
+
+
+
+
+
+
+
+
+
+

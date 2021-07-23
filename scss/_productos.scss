@@ -1,0 +1,49 @@
+/*productos + recomendados + sales*/
+
+@mixin estructura(){
+    background: white;
+    padding: 40px;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 8px;
+}
+
+.card{
+    width: 50%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img{
+    width: 10rem;
+    margin: 0 auto;
+    transition: all 1s;
+}
+
+.card img:hover{
+    transform: scale(1.2,1.2);
+}
+
+
+.main-prod{
+    max-width: 2000px; 
+    @include estructura();
+}
+
+.main-recomendados{
+    max-width: 1024px;
+    @include estructura();
+}
+
+.recomendadoimg img{
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    opacity: 60%;
+}
+
+.recomendadoimg img:hover{
+    opacity: 100%;
+    transition: all 1s;
+}
