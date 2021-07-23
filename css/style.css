@@ -59,11 +59,22 @@ nav{
     transform: scale(1.1);
 }
 
+h1{
+    font-family: 'Satisfy', cursive;
+    color:rgb(255, 255, 255);
+    background-color:rgb(243, 211, 204);
+}
+
 .mi-btn{
     background-color:rgb(245, 208, 197);
     font-family: 'Kalam', cursive;
     color:rgb(248, 247, 246);
     justify-content: center;
+}
+
+.mi-btn:hover{
+    color:#81807e;
+    
 }
 
 footer{
@@ -79,6 +90,10 @@ footer a{
     justify-content: center;
     align-items: center;
     padding: 5px;
+}
+
+footer a:hover{
+    color:#eeeae6;
 }
 
 .card{
@@ -154,6 +169,7 @@ input[type="submit" i] {
     border-width: 2px;
     border-style: none;
     border-image: initial;
+    border-radius: 2px;
 }
 
 option{
@@ -174,6 +190,7 @@ option{
 
   .fa:hover {
     opacity: 0.7;
+    color:#eeeae6;
   }
   
   .fa-facebook {
@@ -203,7 +220,7 @@ option{
     height: 100vh;
     margin: 2%;
     justify-content: center;
-    background: #eeeae6;
+    background: rgb(243, 211, 204);
     padding: 20px;
 }
 
@@ -230,14 +247,14 @@ option{
 .headerblog__titulo{
     font-weight: 100;
     font-family: 'Kalam', cursive;
-    color:rgb(216, 128, 77);
+    color:rgb(255, 255, 255);
     margin-top: 20px;
 }
 
 .headerblog__parrafo{
     margin-top: 40px;
     font-family: 'Kalam', cursive;
-    color:rgb(216, 128, 77);
+    color:rgb(255, 255, 255);
 }
 
 
@@ -266,7 +283,14 @@ option{
 .recomenblog1__img{
     width: 200px;
     height: 200px;
-    border-radius: 50%;
+    border-radius: 10%;
+    opacity: 60%;
+}
+
+.recomenblog1__img:hover{
+    transform: scale(2,2);
+    opacity: 100%;
+    transition: all 1s;
 }
 
 .recomenblog1__contetext{
@@ -282,6 +306,7 @@ option{
     text-align: center;
     font-family: 'Kalam', cursive;
     color:rgb(216, 128, 77);
+    background: white;
 }
 
 .recomenblog1__texto{
@@ -297,13 +322,22 @@ option{
 }
 
 .recomenblog2__conteimg{
+    margin-top: 100px;
     width: 100%;
-    text-align: left;
+    text-align: center;
 }
 
 .recomenblog2__img{
     width: 200px;
     height: 200px;
+    border-radius: 10%;
+    opacity: 60%;
+}
+
+.recomenblog2__img:hover{
+    transform: scale(2,2);
+    opacity: 100%;
+    transition: all 1s;
 }
 
 .recomenblog2__contetext{
@@ -319,6 +353,7 @@ option{
     text-align: center;
     font-family: 'Kalam', cursive;
     color:rgb(216, 128, 77);
+    background: white;
 }
 
 .recomenblog2__texto{
@@ -334,14 +369,22 @@ option{
 }
 
 .recomenblog3__conteimg{
+    margin-top: 100px;
     width: 100%;
-    text-align:right;
+    text-align:center;
 }
 
 .recomenblog3__img{
     width: 200px;
     height: 200px;
     border-radius: 10%;
+    opacity: 60%;
+}
+
+.recomenblog3__img:hover{
+    transform: scale(2,2);
+    opacity: 100%;
+    transition: all 1s;
 }
 
 .recomenblog3__contetext{
@@ -357,6 +400,7 @@ option{
     text-align: center;
     font-family: 'Kalam', cursive;
     color:rgb(216, 128, 77);
+    background: white;
 }
 
 .recomenblog3__texto{
@@ -374,8 +418,14 @@ option{
 
 .footer_blog a{
     font-family: 'Kalam', cursive;
-    color:rgb(216, 128, 77);
-    background: #eeeae6;
+    color:rgb(255, 255, 255);
+    background-color:rgb(243, 211, 204);
+}
+
+.footer_blog a:hover{
+    font-family: 'Kalam', cursive;
+    color:rgb(201, 163, 163);
+    
 }
 
 /*************************************************************seccion media queries****************************************************************************************/
