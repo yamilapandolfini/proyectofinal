@@ -1,0 +1,132 @@
+/*seccion blog*/
+
+@mixin menu($margin-top){
+    font-family: 'Kalam', cursive;
+    color:rgb(255, 255, 255);
+    margin-top: $margin-top;
+}
+
+
+#grillablog{
+    display: grid;
+    grid-template-areas:
+        "headerblog headerblog headerblog"
+        "main_blog main_blog main_blog"
+        "footer_blog footer_blog footer_blog";
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    height: 100vh;
+    margin: 2%;
+    justify-content: center;
+    background: rgb(243, 211, 204);
+    padding: 20px;
+}
+
+.headerblog{
+    grid-area: headerblog;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 100px;
+    text-align: center;
+    margin: auto;
+}
+
+.headerblog__logo{
+    width: 80px;
+    height: 100px;
+    margin: auto;
+}
+
+.headerblog__img{
+    width: 100%;
+    height: 100%;
+}
+
+.headerblog__titulo{
+    font-weight: 100;
+    @include menu(20px);
+}
+
+.headerblog__parrafo{
+    @include menu(40px);
+}
+
+
+.main_blog{
+    grid-area: main_blog;
+    max-width: 1000px;
+    background: white;
+    padding: 40px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 8px;
+}
+
+
+/*recomendados*/
+
+.recomenblog1{
+    width: 100%;
+}
+
+.recomenblog1__conteimg{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.recomenblog1__img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    opacity: 60%;
+}
+
+.recomenblog1__img:hover{
+    transform: scale(1.4,1.4);
+    opacity: 100%;
+    transition: all 1s;
+}
+
+.recomenblog1__contetext{
+    width: 100%;
+    text-align: center;
+    font-family: 'Kalam', cursive;
+    color:rgb(216, 128, 77);
+}
+
+.recomenblog1__titulo{
+    margin-top: 60px;
+    font-weight: 100;
+    text-align: center;
+    font-family: 'Kalam', cursive;
+    color:rgb(216, 128, 77);
+    background: white;
+}
+
+.recomenblog1__texto{
+    margin-top: 40px;
+    letter-spacing: 1px;
+    font-family: 'Kalam', cursive;
+    color:rgb(216, 128, 77);
+}
+
+.footer_blog{
+    grid-area: footer_blog;
+    text-align: center;
+    margin: auto;
+}
+
+.footer_blog a{
+    font-family: 'Kalam', cursive;
+    color:rgb(255, 255, 255);
+    background-color:rgb(243, 211, 204);
+}
+
+.footer_blog a:hover{
+    font-family: 'Kalam', cursive;
+    color:rgb(201, 163, 163);
+    
+}
