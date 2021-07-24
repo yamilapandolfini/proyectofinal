@@ -30,7 +30,8 @@ nav {
 h1 {
   font-family: 'Satisfy', cursive;
   color: white;
-  background-color: #f3d3cc; }
+  background-color: #f3d3cc;
+  padding: 10px; }
 
 /*footer*/
 footer {
@@ -346,7 +347,7 @@ main {
 .mi-btn {
   background-color: #f5d0c5;
   font-family: 'Kalam', cursive;
-  color: #f8f7f6;
+  color: white;
   justify-content: center; }
 
 .mi-btn:hover {
