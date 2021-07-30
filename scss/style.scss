@@ -5,6 +5,7 @@
 @import "blog";
 @import "media";
 
+$fuente: 'Kalam', cursive;;
 
 *{
     margin:0;
@@ -15,7 +16,7 @@
 body{
     text-align: center;
     margin: 0 auto;
-    font-family: 'Kalam', cursive;
+    font-family: $fuente;
     color:rgb(216, 128, 77);
 }
 
@@ -36,7 +37,7 @@ main{
 
 .mi-btn{
     background-color:rgb(245, 208, 197);
-    font-family: 'Kalam', cursive;
+    font-family: $fuente;
     color:rgb(255, 255, 255);
     justify-content: center;
 }

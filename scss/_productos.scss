@@ -9,14 +9,18 @@
 }
 
 .card{
-    width: 50%;
+    width: 65%;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
 }
 
+.card div{
+    overflow:hidden;
+}
+
 .card img{
-    width: 10rem;
+    width: 20rem;
     margin: 0 auto;
     transition: all 1s;
 }
