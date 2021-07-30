@@ -1,9 +1,16 @@
 /*seccion blog*/
 
+$width: 100%;
+
 @mixin menu($margin-top){
     font-family: 'Kalam', cursive;
     color:rgb(255, 255, 255);
     margin-top: $margin-top;
+}
+
+@mixin fontgral(){
+    font-family: 'Kalam', cursive;
+    color:rgb(216, 128, 77);
 }
 
 
@@ -26,7 +33,7 @@
 
 .headerblog{
     grid-area: headerblog;
-    width: 100%;
+    width: $width;
     max-width: 400px;
     margin-top: 100px;
     text-align: center;
@@ -40,7 +47,7 @@
 }
 
 .headerblog__img{
-    width: 100%;
+    width: $width;
     height: 100%;
 }
 
@@ -68,11 +75,11 @@
 /*recomendados*/
 
 .recomenblog1{
-    width: 100%;
+    width: $width;
 }
 
 .recomenblog1__conteimg{
-    width: 100%;
+    width: $width;
     text-align: center;
     margin-top: 50px;
 }
@@ -91,26 +98,23 @@
 }
 
 .recomenblog1__contetext{
-    width: 100%;
+    width: $width;
     text-align: center;
-    font-family: 'Kalam', cursive;
-    color:rgb(216, 128, 77);
+    @include fontgral();
 }
 
 .recomenblog1__titulo{
     margin-top: 60px;
     font-weight: 100;
     text-align: center;
-    font-family: 'Kalam', cursive;
-    color:rgb(216, 128, 77);
+    @include fontgral();
     background: white;
 }
 
 .recomenblog1__texto{
     margin-top: 40px;
     letter-spacing: 1px;
-    font-family: 'Kalam', cursive;
-    color:rgb(216, 128, 77);
+    @include fontgral();
 }
 
 .footer_blog{
@@ -120,13 +124,12 @@
 }
 
 .footer_blog a{
-    font-family: 'Kalam', cursive;
-    color:rgb(255, 255, 255);
+    @include fontgral();
     background-color:rgb(243, 211, 204);
 }
 
 .footer_blog a:hover{
-    font-family: 'Kalam', cursive;
+    @include fontgral();
     color:rgb(201, 163, 163);
     
 }

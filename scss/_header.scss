@@ -1,5 +1,7 @@
 /* header */
 
+$width: 100%;
+
 .header{
     margin-top: 100px;
     text-align: center;
@@ -7,7 +9,7 @@
 }
 
 nav{
-    width: 100%;
+    width: $width;
     background-color: rgb(236, 191, 177);
     text-align: center;  
     font-size: large; 
@@ -19,7 +21,7 @@ nav{
 }
 
 .nav-logo img{
-    width: 100%;
+    width: $width;
     height: 100%;
 }
 

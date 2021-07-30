@@ -24,11 +24,12 @@
 </head>
 
 <body>
+    <!--Menu-->
     <header class="header">
         <nav class="navbar navbar-expand-sm navbar-dark d-flex justify-content-center">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <img src="img/logo.png" alt="" class="nav-logo">
+                    <img src="img/logo.png" alt="logo" class="nav-logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -71,22 +72,22 @@
                     </div>
                     <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="10000">
-                        <img src="img/carrusel1.jpg" class="d-block w-100" alt="...">
+                        <img src="img/carrusel1.jpg" class="d-block w-100" alt="Imagen1 Carrusel">
                         <div class="carousel-caption d-none d-md-block">
                         </div>
                     </div>
                     <div class="carousel-item" data-bs-interval="2000">
-                        <img src="img/carrusel2.jpg" class="d-block w-100" alt="...">
+                        <img src="img/carrusel2.jpg" class="d-block w-100" alt="Imagen2 Carrusel">
                         <div class="carousel-caption d-none d-md-block">
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="img/carrusel3.jpg" class="d-block w-100" alt="...">
+                        <img src="img/carrusel3.jpg" class="d-block w-100" alt="Imagen3 Carrusel">
                         <div class="carousel-caption d-none d-md-block">
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="img/carrusel4.jpg" class="d-block w-100" alt="...">
+                        <img src="img/carrusel4.jpg" class="d-block w-100" alt="Imagen4 Carrusel">
                         <div class="carousel-caption d-none d-md-block">
                         </div>
                     </div>
@@ -103,43 +104,49 @@
             </main>
         </section>
 
+        <!--Formulario Mensaje-->
         <section class="mensaje">
             <h4>Dejanos tu mensaje ♡</h4>
-            <form action="">
-                <div>
-                    <label for="name">Nombre:</label>
-                    <input placeholder="Nombre Apellido" name="name" id="name" type="text" required>
+            <br><br>
+            <form>
+                <div class="mb-3">
+                    <label for="formGroupExampleInput" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
                 </div>
-                <div>
-                    <label for="email">Mail:</label>
-                    <input placeholder="correo@correo.com" name="email" id="email" type="email" required>
+                <br>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                 </div>
-                <div>
-                    <label for="producto">Producto:</label>
-                    <select name="producto">
-                        <option value="espejos">Espejos</option>
-                        <option value="cocina">Bandejas</option>
-                        <option value="velas">Velas</option>
-                        <option value="velas">Mesitas ratonas</option>
-                        <option value="velas">Almohadones</option>
-                        <option value="velas">Macetas</option>
-                    </select>
+                <br> <br>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Producto</option>
+                    <option value="1">Espejos</option>
+                    <option value="2">Bandejas</option>
+                    <option value="3">Velas</option>
+                    <option value="3">Mesitas Ratonas</option>
+                    <option value="3">Almohadones</option>
+                </select>
+                <br> <br>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Dejanos aqui tu mensaje, te responderemos a la brevedad</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
-                <div>
-                    <label for="consulta">Mensaje:</label>
-                    <textarea name="consulta" id="consulta" cols="30" rows="10"></textarea>
+                <br>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Acepto Terminos y Condiciones</label>
                 </div>
-                <div>
-                    <label for="terms">Acepta términos y condiciones</label>
-                    <input type="checkbox" name="terms"/>
+                <br>
+                <div class="botonformulario">
+                    <button type="submit" class="btn mi-btn">Enviar Consulta</button>
                 </div>
-                <div class="input"> 
-                    <input type="submit" value="Enviar consulta">
-                </div>
+                <br><br>
             </form>
         </section>
     </main>
 
+    <!--Footer-->
     <footer id="container-fluid" class="pie-pagina">
         <a href="">Redes Sociales & Info Adicional </a>
         <a href="#" class="fa fa-facebook"></a>
@@ -148,6 +155,7 @@
         <a href="blog.html">Visita nuestro Blog Deco ♡</a>
     </footer>
 
+    <!--Scripts-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous">

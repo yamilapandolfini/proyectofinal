@@ -74,13 +74,16 @@ footer a:hover {
 
 /*productos + recomendados + sales*/
 .card {
-  width: 50%;
+  width: 65%;
   margin: 0 auto;
   justify-content: center;
   align-items: center; }
 
+.card div {
+  overflow: hidden; }
+
 .card img {
-  width: 10rem;
+  width: 20rem;
   margin: 0 auto;
   transition: all 1s; }
 
@@ -115,34 +118,29 @@ footer a:hover {
 
 /*mensajes*/
 .input {
-  font-family: 'Kalam', cursive;
-  color: #d8804d; }
+  font-family: "Kalam", cursive;
+  color: #d8804d;
+  text-align: left;
+  justify-content: left; }
 
 .mensaje {
-  font-size: small; }
+  font-size: small;
+  text-align: left; }
 
-input[type="submit" i] {
-  appearance: auto;
-  user-select: none;
-  white-space: pre;
-  align-items: flex-start;
-  text-align: center;
-  cursor: default;
-  background-color: #f5d0c5;
-  font-family: 'Kalam', cursive;
-  color: #f8f7f6;
+.mensaje h4 {
+  text-align: center; }
+
+.form-check-input {
+  color: #d8804d; }
+
+.botonformulario {
   justify-content: center;
-  box-sizing: border-box;
-  padding: 1px 6px;
-  border-width: 2px;
-  border-style: none;
-  border-image: initial;
-  border-radius: 2px; }
+  text-align: center; }
 
 option {
-  font-family: 'Kalam', cursive;
+  font-family: "Kalam", cursive;
   color: #d8804d;
-  justify-content: center; }
+  justify-content: left; }
 
 /*seccion blog*/
 #grillablog {
@@ -242,11 +240,12 @@ option {
 
 .footer_blog a {
   font-family: 'Kalam', cursive;
-  color: white;
+  color: #d8804d;
   background-color: #f3d3cc; }
 
 .footer_blog a:hover {
   font-family: 'Kalam', cursive;
+  color: #d8804d;
   color: #c9a3a3; }
 
 /*media queries*/
@@ -330,7 +329,7 @@ option {
 body {
   text-align: center;
   margin: 0 auto;
-  font-family: 'Kalam', cursive;
+  font-family: "Kalam", cursive;
   color: #d8804d; }
 
 main {
@@ -346,7 +345,7 @@ main {
 
 .mi-btn {
   background-color: #f5d0c5;
-  font-family: 'Kalam', cursive;
+  font-family: "Kalam", cursive;
   color: white;
   justify-content: center; }
 

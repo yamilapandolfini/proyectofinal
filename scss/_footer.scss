@@ -3,6 +3,11 @@
 $fondo:rgb(236, 191, 177);
 $color:white;
 
+@mixin fuente(){
+  font-family: 'Kalam', cursive;
+  color:rgb(252, 250, 249);
+}
+
 footer{
     margin-bottom: auto;
     bottom: 0;
@@ -10,8 +15,7 @@ footer{
 }
 footer a{
     background-color: $fondo;
-    font-family: 'Kalam', cursive;
-    color:rgb(252, 250, 249);
+    @include fuente();
     display: flex;
     justify-content: center;
     align-items: center;
