@@ -74,7 +74,7 @@ footer a:hover {
 
 /*productos + recomendados + sales*/
 .card {
-  width: 65%;
+  width: 60%;
   margin: 0 auto;
   justify-content: center;
   align-items: center; }
@@ -83,7 +83,7 @@ footer a:hover {
   overflow: hidden; }
 
 .card img {
-  width: 20rem;
+  width: 9rem;
   margin: 0 auto;
   transition: all 1s; }
 
@@ -249,9 +249,9 @@ option {
   color: #c9a3a3; }
 
 /*media queries*/
-@media screen and (min-width: 400px) and (max-width: 556px) {
+@media screen and (min-width: 380px) and (max-width: 556px) {
   .card {
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
     justify-content: center;
     align-items: center; }
@@ -266,12 +266,12 @@ option {
 
 @media screen and (min-width: 556px) and (max-width: 780px) {
   .card {
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
     justify-content: center;
     align-items: center; }
   .card img {
-    width: 150px;
+    width: 70%;
     margin: 0 auto; }
   .recomendadoimg img {
     width: 250px;
@@ -291,7 +291,7 @@ option {
     justify-content: center;
     align-items: center; }
   .card img {
-    width: 150px;
+    width: 80%;
     margin: 0 auto; }
   .recomendadoimg img {
     width: 350px;
@@ -311,7 +311,7 @@ option {
     justify-content: center;
     align-items: center; }
   .card img {
-    width: 150px;
+    width: 80%;
     margin: 0 auto; }
   .recomendadoimg img {
     width: 400px;
