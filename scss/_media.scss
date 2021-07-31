@@ -1,8 +1,8 @@
 /*media queries*/
 
-@media screen and (min-width: 400px) AND (max-width: 556px){
+@media screen and (min-width: 380px) AND (max-width: 556px){
     .card{
-        width: 50%;
+        width: 60%;
         margin: 0 auto;
         justify-content: center;
         align-items: center;
@@ -23,14 +23,14 @@
 
 @media screen and (min-width: 556px) AND (max-width: 780px){
     .card{
-        width: 50%;
+        width: 80%;
         margin: 0 auto;
         justify-content: center;
         align-items: center;
     }
 
     .card img{
-        width: 150px;
+        width: 70%;
         margin: 0 auto;
     }
     .recomendadoimg img{
@@ -64,7 +64,7 @@
     }
     
     .card img{
-        width: 150px;
+        width: 80%;
         margin: 0 auto;
     }
     .recomendadoimg img{
@@ -94,7 +94,7 @@
     }
     
     .card img{
-        width: 150px;
+        width: 80%;
         margin: 0 auto;
     }
 
